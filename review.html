@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to d_vu's page!</title>
+  </head>
+  
+  <body>
+	<!-- Hotel Review Form -->
+<div>
+<p>Please help other customers by submitting a review of your recent hotel stay below:</p>
+<form action="hotel_review.php" method="post">
+<p>Hotel you recently stayed at: <select name="hotel_chain" required>
+<option value="AllPoints">All Points by Careaton</option>
+Fanshawe College Page 2 of 7
+INFO1208 PHP Professor Kjartan Hermansen
+Lab 03 HTML Forms Winter 2022
+<option value="Holiday Out">Holiday Out</option>
+<option value="Doubleshrub">Doubleshrub</option>
+<option value="DaNada">DaNada</option>
+<option value="Mitts Carlton">Mitts Carlton</option>
+<option value="Milton">Milton</option>
+</select>
+</p><p>
+Name: <input type="text" name="name" size="30">
+</p><p>
+Email Address: <input type="email" name="email" size="30">
+</p><p>
+My rating for this stay is:
+<input type="radio" name="response" value="awesome">Awesome!
+<input type="radio" name="response" value="bad">Bad
+</p>
+<input type="submit" name="submit" value="Submit">
+</form>
+</div>
+  </body>
+</html>
